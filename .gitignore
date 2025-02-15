@@ -1,0 +1,13 @@
+/application.log
+/files
+/train_tab.log
+/test
+/results
+/results2
+/dist
+/build
+/retest
+/data_preparation.log
+/data_visualization.log
+SoC_Tool.spec
+/.conda
