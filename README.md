@@ -38,38 +38,6 @@ Para instalar as dependências, execute:
 
 ---
 
-Estrutura do Projeto
-
-.
-├── scripts
-│   ├── data
-│   │   ├── data_processing.py       # Leitura, limpeza e processamento dos dados brutos.
-│   │   ├── data_preparation.py      # Preparação dos dados para treinamento.
-│   │   └── data_visualization.py    # Criação de gráficos e análise visual dos dados.
-│   │
-│   ├── gui
-│   │   ├── SoC_Tool.py              # Arquivo principal que integra e inicia a aplicação.
-│   │   ├── process_tab.py           # Aba para importação e processamento dos dados.
-│   │   ├── visualize_tab.py         # Aba para visualização de dados e resultados.
-│   │   ├── train_tab.py             # Aba para configuração e treinamento de modelos.
-│   │   ├── estimate_tab.py          # Aba para estimativa do SoC com modelos treinados.
-│   │   ├── progress_handler.py      # Gestão de progresso e feedback visual.
-│   │   ├── metrics_display.py       # Exibição de métricas de desempenho.
-│   │   ├── custom_model_manager.py  # Gerenciamento de modelos personalizados.
-│   │   └── training_parameters.py   # Validação e captura dos parâmetros de treinamento.
-│   │
-│   └── models
-│       └── model_training.py        # Fluxo principal para treinamento, avaliação e salvamento dos modelos.
-│
-├── logs
-│   ├── data_processing.log
-│   ├── data_preparation.log
-│   ├── model_training.log
-│   ├── custom_model_manager.log
-│   └── training_parameters.log
-│
-├── requirements.txt
-└── README.txt
 
 ---
 
